@@ -80,20 +80,34 @@ There is no port 22, no key pair, and no inbound rule to attack. The instance's 
 
 
 ### Cost Guardrails
+
+<img width="1349" height="693" alt="Screenshot 2026-11-08 212812" src="https://github.com/user-attachments/assets/4f3e7279-9b68-4350-a59c-70d0e47bdbd6" />
+
+
 - [x] Monthly **cost budget** in place
 - [x] Email alerts at **85% / 100% actual** and **100% forecasted** spend
 
 ### Logging & Auditing
+<img width="1355" height="648" alt="Screenshot 2026-11-08 213725" src="https://github.com/user-attachments/assets/9a7bcf53-05a4-4fb6-ad19-b9a968877f9b" />
+
 - [x] **CloudTrail** enabled as a **multi-region** trail
 - [x] Trail logs delivered to a **dedicated log bucket**
 
 ### Compute
+
+<img width="1365" height="667" alt="Screenshot 2026-11-08 224415" src="https://github.com/user-attachments/assets/1ab5b7d9-dc5f-4368-9bcc-830b0b86723c" />
+
+
 - [x] EC2 instance launched with **no key pair**
 - [x] **No inbound SSH (port 22)** in the security group
 - [x] Server access via **SSM Session Manager** only (IAM-authenticated)
 - [x] **IAM role** attached to the instance — no credentials stored on the server
 
 ### Storage
+
+<img width="1357" height="656" alt="Screenshot 2026-11-08 231211" src="https://github.com/user-attachments/assets/c34b23ad-71fc-4fb3-914a-71bdc452fc5b" />
+
+
 - [x] **Block Public Access** enabled on the bucket
 - [x] **Default encryption at rest** (SSE-S3) enabled
 - [x] Bucket deployed in the governed home region (`us-east-2`)
@@ -109,29 +123,13 @@ There is no port 22, no key pair, and no inbound rule to attack. The instance's 
 
 ---
 
-## 📸 Evidence
-
-Screenshots captured during the build (place them in an `images/` folder):
-
-| Step | Screenshot |
-|---|---|
-| Root MFA enabled | `images/root-mfa.png` |
-| Admin user & group created | `images/iam-admin-user.png` |
-| Budget & alerts created | `images/budget-alerts.png` |
-| CloudTrail trail logging | `images/cloudtrail-trail.png` |
-| Instance launched (no key pair) | `images/ec2-launch-success.png` |
-| Session Manager connected | `images/ssm-session.png` |
-| S3 Block Public Access — On | `images/s3-block-public-access.png` |
-| S3 default encryption — SSE-S3 | `images/s3-encryption.png` |
-
----
+## 📸 Evidence: Screenshots added to every illustration.
 
 ## 🛠️ AWS Services Used
 
 IAM · AWS Budgets (Billing & Cost Management) · CloudTrail · EC2 · Systems Manager (Session Manager) · S3
 
 ---
-
 ## 📚 Lessons Learned
 
 - Security controls cost almost nothing on day one — and a lot after an incident.

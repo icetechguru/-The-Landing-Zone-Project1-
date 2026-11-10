@@ -76,6 +76,8 @@ There is no port 22, no key pair, and no inbound rule to attack. The instance's 
 - [x] **Named** IAM admin user for daily work — no shared credentials
 - [x] **Forced password reset** at first sign-in for the new user
 - [ ] MFA enrolled for the admin IAM user *(in progress)*
+<img width="1365" height="727" alt="Screenshot 2026-11-08 204906" src="https://github.com/user-attachments/assets/cb312100-3f51-435d-b131-388d98f1cf94" />
+
 
 ### Cost Guardrails
 - [x] Monthly **cost budget** in place
@@ -153,4 +155,4 @@ IAM · AWS Budgets (Billing & Cost Management) · CloudTrail · EC2 · Systems M
 
 <sub>Hands-on portfolio project — built and verified in a live AWS account, November 2026.</sub>
 
-...[truncated]
+

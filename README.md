@@ -68,7 +68,7 @@ There is no port 22, no key pair, and no inbound rule to attack. The instance's 
 ---
 
 ## ✅ Account Security Baseline Checklist
-
+<img width="1365" height="727" alt="Screenshot 2026-11-08 204906" src="https://github.com/user-attachments/assets/cb312100-3f51-435d-b131-388d98f1cf94" />
 ### Identity & Access
 - [x] MFA enabled on the **root** account
 - [x] Root account **retired from daily use** (break-glass only)
@@ -76,7 +76,7 @@ There is no port 22, no key pair, and no inbound rule to attack. The instance's 
 - [x] **Named** IAM admin user for daily work — no shared credentials
 - [x] **Forced password reset** at first sign-in for the new user
 - [ ] MFA enrolled for the admin IAM user *(in progress)*
-<img width="1365" height="727" alt="Screenshot 2026-11-08 204906" src="https://github.com/user-attachments/assets/cb312100-3f51-435d-b131-388d98f1cf94" />
+
 
 
 ### Cost Guardrails

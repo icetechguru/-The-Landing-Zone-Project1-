@@ -1,3 +1,4 @@
+
 # Close Brothers — AWS Account Security Hardening
 
 > Securing a brand-new AWS account from day one: identity protection, spending guardrails, full audit logging — and a server with **no SSH door at all**.
@@ -13,6 +14,13 @@
 
 This project implements the foundational security controls for the account end-to-end: the root account is locked down and retired from daily use, a named admin user handles day-to-day work, budget alerts watch spending, CloudTrail records all activity, a server is deployed with **zero inbound SSH exposure**, and storage is created private and encrypted by default.
 
+## ARCHITECTURAL DIAGRAM
+
+<img width="1024" height="413" alt="WhatsApp Image 2026-11-10 at 2 14 32 PM" src="https://github.com/user-attachments/assets/d6171092-4d27-44b8-8217-0db1bfc0ea15" />
+
+
+
+
 | Detail | Value |
 |---|---|
 | **Company** | Close Brothers |
@@ -20,7 +28,8 @@ This project implements the foundational security controls for the account end-t
 | **Region** | US East (Ohio) — `us-east-2` |
 | **Status** | ✅ Complete |
 
----
+
+
 
 ## 🎯 Objectives
 
